@@ -14,3 +14,6 @@ I shared this with other people in Temple's neuroscience department interested i
 
 "barGraphBasicLayout.py" contains a skeleton of a bar graph with instructions on how to use it.
 I shared this with some graduate students who where interested in using matplotlib in python to graph.
+
+"Snake" contains a version of the game Snake that I wrote that shows understanding of both object orriented programming and event based programming.
+It uses a library called Simple GUI written by a professor at Temple University. 

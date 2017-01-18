@@ -1,0 +1,4 @@
+In this file are some examples of code I wrote
+
+"MultAnova.r" contains a skeleton of a ANOVA done in R with explainations on how to write it. 
+I shared this with other people in Temple's neuroscience department interested in running statistics in R as well as using it in my own project.

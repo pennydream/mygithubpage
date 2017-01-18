@@ -1,4 +1,16 @@
 In this file are some examples of code I wrote
 
+"NeuroProjectJavaFiles" contains a number of files used to group data on the reaction time of animals.
+Essentially, there were a number of excel files with a specific layout which had to be read and combined to make one large data set.
+The animals were run though a Go-No Go behavior task with two groups, one aged and another young. 
+There were two groups and two types of trials the animals could undergo, either a Go trial or a No Go trial. 
+We wanted to know if the previous trial type (Go or No Go) had an effect on the reaction time of the animal's response to the task,
+as well as how age had an effect on this. 
+So, the data set had four columns: Current Trial type, Previous Trial type, Age, and Reaction Time
+With this, we ran a MANOVA, as shown in the R file in the next example of my code.
+
 "MultAnova.r" contains a skeleton of a ANOVA done in R with explainations on how to write it. 
 I shared this with other people in Temple's neuroscience department interested in running statistics in R as well as using it in my own project.
+
+"barGraphBasicLayout.py" contains a skeleton of a bar graph with instructions on how to use it.
+I shared this with some graduate students who where interested in using matplotlib in python to graph.

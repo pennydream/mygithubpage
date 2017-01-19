@@ -6,8 +6,10 @@ The animals were run though a Go-No Go behavior task with two groups, one aged a
 There were two groups and two types of trials the animals could undergo, either a Go trial or a No Go trial. 
 We wanted to know if the previous trial type (Go or No Go) had an effect on the reaction time of the animal's response to the task,
 as well as how age had an effect on this. 
-So, the data set had four columns: Current Trial type, Previous Trial type, Age, and Reaction Time
-With this, we ran a MANOVA, as shown in the R file in the next example of my code.
+So, the program made a .csv file with a data set that had five columns: 
+  ID, Current Trial type, Previous Trial type, Age, and Reaction Time
+With this, we made a number of graphs, including histograms and box and whisker plots to see the differences in distributions.
+We ran a MANOVA, similar to the one shown in the R file in the next example of my code.
 
 "MultAnova.r" contains a skeleton of a ANOVA done in R with explainations on how to write it. 
 I shared this with other people in Temple's neuroscience department interested in running statistics in R as well as using it in my own project.
